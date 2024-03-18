@@ -27,4 +27,4 @@ def bulk_load_data(db, directory):
 db = connect_to_mongodb()
 
 # Call the function to load data into collections
-bulk_load_data(db, '/Users/jayantasudhani/Documents/MongoDB/Assignment/Data')
+bulk_load_data(db, 'Data')
